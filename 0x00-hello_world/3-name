@@ -1,2 +1,3 @@
 #!/bin/bash
-gcc $CFILEN-o cisun
+gcc $CFILE -o cisfun
+
