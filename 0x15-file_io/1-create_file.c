@@ -22,7 +22,7 @@ int create_file(const char *thefilename, char *txt_cntnt)
 	}
 
 	ab = open(thefilename, O_CREAT | O_RDWR | O_TRUNC, 0600);
-	r = write(ab, txt_cntnt, pem);
+	r = write(ab, txt_cntnt, tem);
 
 	if (ab == -1 || r == -1)
 		return (-1);
